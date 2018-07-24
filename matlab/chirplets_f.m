@@ -58,9 +58,13 @@ freq_slopes_stop  = deck_param.freq_slopes_stop;
 chirp_amp_mod_key = deck_param.chirp_amp_mod_key;
 
 
+
 center_point_freq_add = [];
 slopes_of_interest  = [];
-bands_of_interest  = [];
+
+
+bands_of_interest  = deck_param.freqs_of_interest;
+
 
 
 if (~isempty(bands_of_interest))

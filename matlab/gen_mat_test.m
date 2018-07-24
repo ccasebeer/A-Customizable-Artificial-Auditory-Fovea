@@ -22,6 +22,7 @@ deck_param.freq_slopes_step = 26250;
 deck_param.time_sample_step = 2000;
 deck_param.chirp_amp_mod_key = {1,'gauss'}
 deck_param.f = f;
+deck_param.freqs_of_interest = [];
 deck_param.num_chirps = [];
 
 
